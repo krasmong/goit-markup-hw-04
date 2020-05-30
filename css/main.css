@@ -9,14 +9,30 @@
 
 /* Герой */
 .hero {
-  text-align: center;
+  /* outline: 1px solid tomato; */
 
-  outline: 1px solid tomato;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/bg-hero.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
   width: 646px;
+  padding-top: 200px;
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;

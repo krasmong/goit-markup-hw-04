@@ -34,9 +34,15 @@
 
         <div class="contacts">
           <a href="mailto:info@devstudio.com " class="link">
+            <svg class="contacts-icon envelope">
+              <use href="./images/sprite.svg#envelope"></use>
+            </svg>
             info@devstudio.com
           </a>
           <a href="tel:+380961111111" class="link">
+            <svg class="contacts-icon smartphone">
+              <use href="./images/sprite.svg#smartphone"></use>
+            </svg>
             +38 096 111 11 11
           </a>
         </div>
@@ -54,14 +60,20 @@
       <section class="section">
         <div class="container">
           <!--этот заголовок спрячется в CSS-->
-          <h2 class="section-title">Наши преимущества</h2>
+          <h2 class="section-title visually-hidden">Наши преимущества</h2>
 
           <ul class="feature list">
             <li class="item">
-              <img
+              <div class="bg-icon">
+                <svg class="icon-antenna" width="70" height="70">
+                  <use href="./images/sprite.svg#antenna"></use>
+                </svg>
+              </div>
+
+              <!-- <img
                 src="./images/antenna.svg"
                 alt="изображение параболической антенны"
-              />
+              /> -->
               <h3 class="title">Внимание к деталям</h3>
               <p class="description">
                 Идейные соображения, а также начало повседневной работы по
@@ -69,7 +81,14 @@
               </p>
             </li>
             <li class="item">
-              <img src="./images/clock.svg" alt="изображение настенных часов" />
+              <div class="bg-icon">
+                <svg class="icon-antenna" width="70" height="70">
+                  <use href="./images/sprite.svg#clock"></use>
+                </svg>
+              </div>
+
+              <!-- <img src="./images/clock.svg" alt="изображение настенных часов" /> -->
+
               <h3 class="title">Пунктуальность</h3>
               <p class="description">
                 Задача организации, в особенности же рамки и место обучения
@@ -77,7 +96,14 @@
               </p>
             </li>
             <li class="item">
-              <img src="./images/diagram.svg" alt="изображение диаграммы" />
+              <div class="bg-icon">
+                <svg class="icon-antenna" width="70" height="70">
+                  <use href="./images/sprite.svg#diagram"></use>
+                </svg>
+              </div>
+
+              <!-- <img src="./images/diagram.svg" alt="изображение диаграммы" /> -->
+
               <h3 class="title">Планирование</h3>
               <p class="description">
                 Равным образом консультация с широким активом в значительной
@@ -85,7 +111,14 @@
               </p>
             </li>
             <li class="item">
-              <img src="./images/astronaut.svg" alt="изображение астронавта" />
+              <div class="bg-icon">
+                <svg class="icon-antenna" width="70" height="70">
+                  <use href="./images/sprite.svg#astronaut"></use>
+                </svg>
+              </div>
+
+              <!-- <img src="./images/astronaut.svg" alt="изображение астронавта" /> -->
+
               <h3 class="title">Современные технологии</h3>
               <p class="description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -146,37 +179,51 @@
               <p class="position">Product Designer</p>
 
               <!--ссылки на соц. сети-->
-              <ul class="list">
-                <li>
-                  <a href="" aria-label="Ссылка на Instagram">
-                    <img
+              <ul class="list icon">
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Instagram" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-instagram"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-instagram.svg"
                       alt="логотип Инстаграм"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Twitter">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Twitter" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-twitter"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-twitter.svg"
                       alt="логотип Твиттер"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Facebook">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Facebook" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-facebook"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-facebook.svg"
                       alt="логотип Фейсбук"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на linkedin">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на linkedin" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-linkedin"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-linkedin.svg"
                       alt="логотип Линкедин"
-                    />
+                    /> -->
                   </a>
                 </li>
               </ul>
@@ -191,37 +238,51 @@
               <p class="position">Frontend Developer</p>
 
               <!--ссылки на соц. сети-->
-              <ul class="list">
-                <li>
-                  <a href="" aria-label="Ссылка на Instagram">
-                    <img
+              <ul class="list icon">
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Instagram" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-instagram"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-instagram.svg"
                       alt="логотип Инстаграм"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Twitter">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Twitter" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-twitter"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-twitter.svg"
                       alt="логотип Твиттер"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Facebook">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Facebook" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-facebook"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-facebook.svg"
                       alt="логотип Фейсбук"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на linkedin">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на linkedin" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-linkedin"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-linkedin.svg"
                       alt="логотип Линкедин"
-                    />
+                    /> -->
                   </a>
                 </li>
               </ul>
@@ -236,37 +297,51 @@
               <p class="position">Marketing</p>
 
               <!--ссылки на соц. сети-->
-              <ul class="list">
-                <li>
-                  <a href="" aria-label="Ссылка на Instagram">
-                    <img
+              <ul class="list icon">
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Instagram" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-instagram"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-instagram.svg"
                       alt="логотип Инстаграм"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Twitter">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Twitter" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-twitter"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-twitter.svg"
                       alt="логотип Твиттер"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Facebook">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Facebook" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-facebook"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-facebook.svg"
                       alt="логотип Фейсбук"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на linkedin">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на linkedin" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-linkedin"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-linkedin.svg"
                       alt="логотип Линкедин"
-                    />
+                    /> -->
                   </a>
                 </li>
               </ul>
@@ -281,37 +356,51 @@
               <p class="position">UI Designer</p>
 
               <!--ссылки на соц. сети-->
-              <ul class="list">
-                <li>
-                  <a href="" aria-label="Ссылка на Instagram">
-                    <img
+              <ul class="list icon">
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Instagram" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-instagram"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-instagram.svg"
                       alt="логотип Инстаграм"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Twitter">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Twitter" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-twitter"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-twitter.svg"
                       alt="логотип Твиттер"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Facebook">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на Facebook" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-facebook"></use>
+                    </svg>
+
+                    <!-- <img
                       src="./images/logo-facebook.svg"
                       alt="логотип Фейсбук"
-                    />
+                    /> -->
                   </a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на linkedin">
-                    <img
+                <li class="social">
+                  <a href="" aria-label="Ссылка на linkedin" class="link">
+                    <svg class="social-icon" width="20" height="20">
+                      <use href="./images/sprite.svg#logo-linkedin"></use>
+                    </svg>
+                    <!-- <img
                       src="./images/logo-linkedin.svg"
                       alt="логотип Линкедин"
-                    />
+                    /> -->
                   </a>
                 </li>
               </ul>

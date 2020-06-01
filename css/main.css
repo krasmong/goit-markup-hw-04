@@ -203,7 +203,7 @@
   line-height: 1.19;
 }
 
-.social .link {
+/* .social .link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@
 .social .link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
-}
+} */
 
 /* Постоянные клиенты */
 .clients {

@@ -83,7 +83,7 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .visually-hidden {
@@ -222,6 +222,34 @@ a {
 .social-networks {
   display: flex;
   justify-content: space-evenly;
+}
+
+.social-networks .link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-networks .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-networks .social-icon {
+  fill: var(--primary-bg-color);
+}
+
+.social .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--color-social-links);
+}
+
+.social .link:hover,
+.social .link:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
 }
 
 .join-in > .item {
